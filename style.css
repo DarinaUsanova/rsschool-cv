@@ -1,2 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
+  font-family: 'BioRhyme', serif;
+  font-family: 'Open Sans', sans-serif;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F2;
+  justify-content: center;
+  color: #221D23;
+}
+.header{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 20px;
+}
+.container__header{
+  background-color: #57737A;
+  height: 60px;
+}
+.container{
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 20px;
+}
+.container .left__column{
+  position: relative;
+  background-color: #70789B;
+  padding-bottom: 20px;
+}
+.container .right__column{
+  position: relative;
+  background-color: #E7E6DA;
+}
+.nav-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.photo{
+  display: block;
+  text-align: center;
+}
+.main__photo{
+  width: 250px;
+  height: 290px;
+  border-radius: 50%;
+  margin: 30px 0;
+}
+.left__column-info{
+  padding-left: 50px;
+}
+h1{
+  font-family: 'BioRhyme', serif;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 64px;
+  margin: 50px 0;
+  text-align: center;
+}
+h2{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 64px;
+  font-family: 'BioRhyme', serif;
+  text-decoration: underline #FF8C42;
+}
+a{
+  text-decoration: none;
+  color: #221D23;
+}
+dt{
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+dd{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+a:hover{
+  text-decoration: underline #FF8C42;
+  transition: 0.1s;
+}
+.education, .skills, .languages{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.introduction__text{
+  margin: 0 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.work__experience, .courses, .code__example{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 50px;
+}
+.nav-item{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 5px 30px;
+}
+.footer{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 20px;
+  background-color: #57737A;
+  height: 60px;
+}
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 10px 50px;
+}
+.github__link{
+  display: flex;
+  align-items: center;
 }
